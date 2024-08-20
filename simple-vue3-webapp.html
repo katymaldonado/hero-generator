@@ -29,24 +29,24 @@
             margin-bottom: 20px;
         }
         .hero-card {
-            background-color: #f9f9f9;
+            background-color: #b0f196;
             border-radius: 10px;
             padding: 20px;
             margin-top: 20px;
         }
         .hero-name {
             font-size: 24px;
-            color: #3273dc;
+            color: #dc32dc;
             margin-bottom: 10px;
         }
         .hero-power {
             font-size: 18px;
-            color: #ff3860;
+            color: #068f11;
             margin-bottom: 10px;
         }
         .hero-weakness {
             font-style: italic;
-            color: #ffdd57;
+            color: #f80000;
         }
         .hero-image {
             width: 200px;
@@ -55,7 +55,7 @@
             background-size: cover;
             background-position: center;
             border-radius: 50%;
-            border: 5px solid #3273dc;
+            border: 5px solid #dc32dc;
         }
         button {
             background-color: #00d1b2;
@@ -97,9 +97,9 @@
                 const heroImage = ref('https://api.dicebear.com/6.x/bottts/svg?seed=SuperCoder')
 
                 const generateHero = () => {
-                    const names = ['Capitán Código', 'Wonder Web', 'Git Guardian', 'CSS Crusader', 'JavaScript Jedi']
+                    const names = ['Capitán Código', 'Wonder Web', 'Git Guardian', 'CSS Crusader', 'JavaScript Jedi','Max Web']
                     const powers = ['Depuración Instantánea', 'Control de Versiones Mental', 'Teletransportación de Datos', 'Manipulación de DOM', 'API Whisperer']
-                    const weaknesses = ['Errores de Sintaxis', 'Reuniones Interminables', 'Café Frío', 'Internet Lento', 'Deadlines Imposibles']
+                    const weaknesses = ['Errores de Sintaxis', 'Reuniones Interminables', 'Café Frío', 'Internet Lento', 'Deadlines Imposibles','Metal Pesado']
 
                     heroName.value = names[Math.floor(Math.random() * names.length)]
                     heroPower.value = powers[Math.floor(Math.random() * powers.length)]
